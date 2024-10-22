@@ -8,10 +8,11 @@ public class uri1003 {
 
 		int A, B, soma;
 
-		A = sc.nextInt();
-		B = sc.nextInt();
+		double A = sc.nextInt();
+		double B = sc.nextInt();
+		
 
-		soma = A + B;
+		soma = (int) (A + B);
 
 		System.out.println("SOMA = " + soma);
 
